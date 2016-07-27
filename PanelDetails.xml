@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDiscountPanelSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DiscountPanelSet>
+    <ActionHandler>txtinhrmcPrice_leave</ActionHandler>
+    <Panels>
+      <DiscountPanelBase>
+        <Service>ROUTINE</Service>
+        <Left>0</Left>
+        <Top>288</Top>
+        <AllowLeave>false</AllowLeave>
+        <Name>pnlCallOutCharge</Name>
+        <DiscountScheme />
+        <LineItem>APCOL0011</LineItem>
+        <Label>Minimum charge for Benzene</Label>
+        <Width>708</Width>
+        <Height>40</Height>
+        <PanelType>1</PanelType>
+      </DiscountPanelBase>
+    </Panels>
+    <ParentPanel>pnlMinCharge</ParentPanel>
+  </DiscountPanelSet>
+    <DiscountPanelSet>
+      <ActionHandler>pnlAO_PriceChanged</ActionHandler>
+      <Panels>
+      <DiscountPanelBase>
+        <Service>ROUTINE</Service>
+        <Left>0</Left>
+        <Top>280</Top>
+        <AllowLeave>false</AllowLeave>
+        <Name>pnlBenzene</Name>
+        <DiscountScheme />
+        <LineItem>APCOL0010</LineItem>
+        <Label>Benzene  Samples</Label>
+        <Width>708</Width>
+        <Height>40</Height>
+        <PanelType>0</PanelType>
+      </DiscountPanelBase>
+      
+    </Panels>
+    <ParentPanel>panel2</ParentPanel>
+  </DiscountPanelSet>
+
+</ArrayOfDiscountPanelSet>

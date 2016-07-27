@@ -1,0 +1,76 @@
+<root>
+  <TopLevelMenu id="CollectionContext" OnClick="CollectionContext_" type="MENU">
+    <MenuItem id="&amp;Edit Collection" OnClick="mnuAmendColl_" Tag="XMRDCP" type="MENU"></MenuItem>
+    <MenuItem id="&amp;Misc Details" type="MENU">
+      <MenuItem id="Edit C&amp;omments" OnClick ="mnuEditComments_" Tag="XMRD" type="MENU"></MenuItem>
+      <MenuItem id="Edit &amp;Agents details" OnClick ="mnuEditAgents_" Tag="XMRD" type="MENU"></MenuItem>
+      <MenuItem id="Edit &amp;Who to test" OnClick ="mnuEditWTT_" Tag="XMRD" type="MENU"></MenuItem>
+      <MenuItem id="Edit &amp;Site/Vessel" OnClick ="mnuEditVessel_" Tag="XM" type="MENU"></MenuItem>
+    </MenuItem>
+    <MenuItem id="Officer" type="MENU">
+      <MenuItem id="Assign to &amp;Active" OnClick="mnuAssignActive_" Tag="DRMXI" type="MENU" Group="OFFICER"></MenuItem>
+      <MenuItem id="Assign to &amp;Completed" OnClick="mnuAssignComplete_" Tag="VPCXI" type="MENU" Group="OFFICER"></MenuItem>
+      <MenuItem id="&amp;View Contact Detail" OnClick="MnuViewOfficerDetails_" Tag="V" type="MENU" Group="OFFICER"></MenuItem>
+      <MenuItem id="Email &amp;Officer re collection" OnClick="mnuMailOfficer_" Tag="VWX" type="MENU" Group="OFFICER"></MenuItem>
+      <MenuItem id="Edit Collecting Officer &amp;Details" OnClick="mnuEdOfficer_" Tag="VW" type="MENU" Group="OFFICER"></MenuItem>
+      <MenuItem id="View Pay Details" OnClick="mnuAssignPayDetails_" Tag="VWPX" type="MENU" Group="OFFICER"></MenuItem>
+      <MenuItem id="&amp;Find Nearest Officer" OnClick="mnuFindNearestOfficer_" Tag="X" type = "MENU" Group="OFFICER" />
+      <MenuItem id="Enter Pay Details" OnClick="mnuEnterPayDetails_" Tag="VWPX" type="MENU" Group="OFFICER"></MenuItem>
+      <MenuItem id="Enter Pay Details (additional Officer)" OnClick="mnuEnterPayDetailsAdd_" Tag="VWPX" type="MENU" Group="OFFICER"></MenuItem>
+    </MenuItem>
+    <MenuItem id="&amp;Send" OnClick="mnuSend_" Tag="CDRMX" type="MENU"></MenuItem>
+    <MenuItem id="&amp;Confirm Collection" OnClick="mnuConfirm_" Tag="VCDRMXI" type="MENU"></MenuItem>
+    <MenuItem id="&amp;Unconfirm Collection" OnClick="mnuUnconfirmCollection_" Tag="VWPDRMXI" type="MENU"></MenuItem>
+    <MenuItem id="C&amp;ancel Collection" OnClick="mnuCancel_" Tag="DRMI" AltText="U&amp;ncancel Collection" AltStatus="X" type="MENU"></MenuItem>
+    <MenuItem id="&amp;Resend/Print" type="MENU">
+      <MenuItem id="&amp;Collection" OnClick="mnuResend_" type="MENU" Group="SEND"></MenuItem>
+      <MenuItem id="&amp;Officer Confirmation" OnClick="mnuResendCOConfirmation_" Tag="DRM" Group="SEND" type="MENU"></MenuItem>
+      <MenuItem id="C&amp;ustomer Confirmation" OnClick="mnuResendConf_" Tag="VW" type="MENU" Group="SEND"></MenuItem>
+      <MenuItem id="Collection Request (To &amp;Self)" OnClick="mnuCollToSelf_" type="MENU" Group="SEND"></MenuItem>
+      <MenuItem id="&amp;View Collecters Instructions" OnClick="mnuCollInstrView_" type="MENU" Group="SEND"></MenuItem>
+    </MenuItem>
+    <MenuItem id="Collec&amp;tion Documentation Received" OnClick="mnuCollDocReceived_" Tag="VWPM" type="MENU"></MenuItem>
+    <MenuItem id="Set Collection Date" OnClick="mnuSetCollDate_" type="MENU"></MenuItem>
+    <MenuItem id="Defer Collection" OnClick="mnuDeferCollection_" Tag="VWDRMX" type="MENU"></MenuItem>
+    <MenuItem id="C&amp;hange destination" OnClick="mnuAlterDestination_" Tag="X" type="MENU"></MenuItem>
+    <MenuItem id="Complete Collection" OnClick="mnuCompleteCollection_" Tag="VWMX" type="MENU"></MenuItem>
+    <MenuItem id="Change &amp;Vessel/Site" OnClick="mnuChangeVessel_" Tag="XI" type="MENU" />
+    <MenuItem id="bar0" type="BAR"></MenuItem>
+    <MenuItem id="&amp;View Workflow" OnClick="mnuView_" Tag="" type="MENU"></MenuItem>
+    <MenuItem id="View Jo&amp;b cost" OnClick="mnuJobCost_" Tag="V" type="MENU"></MenuItem>
+    <MenuItem id="Interrupt Collection Processing" OnClick="mnuPutCollectionOnHold_" Tag="XHMI" type="MENU"></MenuItem>
+    <MenuItem id="Resume Collection Processing" OnClick="mnuResumeCollection_" Tag="VPXCDRMHW" type="MENU"></MenuItem>
+    <MenuItem id="View Cardiff Details" OnClick="mnuCardiffInfo_" Tag="VPH" type="MENU"></MenuItem>
+    <MenuItem id="&amp;Random Numbers" OnClick="mnuRandomNumbers_" Tag="X" type ="MENU"/>
+    <MenuItem id="&amp;Invoicing and Pricing" type="MENU">
+      <MenuItem id="Enter &amp;Purchase Order no" OnClick="mnuPoEntry_"  type="MENU"></MenuItem>
+      <MenuItem id="Set a&amp;greed costs" OnClick="mnuCollAgreedCosts_"  type="MENU"></MenuItem>
+      <MenuItem id="Send &amp;Invoice to self" OnClick="mnuSendInvoice_" Tag="VWPCD" type="MENU"></MenuItem>
+      <MenuItem id="Enter &amp;Card payment" OnClick="mnuCardPay_" Tag="M" type="MENU"></MenuItem>
+      <MenuItem id="Enter Invoice &amp;Number" OnClick="mnuAddInvoiceNumber_" Tag="VWPC" type="MENU" Roles="MED_ACCOUNTS,IT_SUPPORT"></MenuItem>
+    </MenuItem>
+    <MenuItem id="bar1" type="BAR"></MenuItem>
+    <MenuItem id="Raise Problem With C/&amp;O" OnClick="mnuCOComment_" Tag="VW" type="MENU"></MenuItem>
+    <MenuItem id="Reso&amp;lve Problem" OnClick="mnuResolveProblem_" Tag="VW" type="MENU"></MenuItem>
+    <MenuItem id="Add Com&amp;ment" OnClick="mnuAddComment_" Tag="" type="MENU"></MenuItem>
+    <MenuItem id="Raise &amp;Problem Locally" OnClick="mnuProblem_" Tag="" type="MENU"></MenuItem>
+    <MenuItem id="bar2" type="BAR"></MenuItem>
+    <MenuItem id="R&amp;esend certificates of analysis" OnClick="mnuResendCerts_" Tag="VWPCDRX"  type="MENU"></MenuItem>
+    <MenuItem id="Jobs" Tag="XI" type="MENU">
+      <MenuItem id="Un&amp;Authorise Job"  OnClick="mnuUnAuthorise_" Tag="VWPCX" Group="UNCOMMIT" type="MENU"></MenuItem>
+      <MenuItem id="Un&amp;Report Job" OnClick="mnuUnReport_" Tag="VWPCX" Group="UNCOMMIT" type="MENU"></MenuItem>
+      <MenuItem id="Un&amp;Commit Job" OnClick="mnuUnCommit_" Tag="VWPCX" Group="UNCOMMIT" type="MENU"></MenuItem>
+      <MenuItem id="Change SMID-Profile - re&amp;test samples" OnClick="mnuChangeCustRetest_" Tag="VWPCX" Group="UNCOMMIT" type="MENU"></MenuItem>
+      <MenuItem id="C&amp;hange SMID-Profile - re-report samples" OnClick="mnuChangeCust_" Tag="VWPCX" Group="UNCOMMIT" type="MENU"></MenuItem>
+      <MenuItem id="Change SMID-Profile - re-&amp;Invoice samples" OnClick="mnuChangeCustInvoice_" Tag="VWPCX" Group="UNCOMMIT" type="MENU"></MenuItem>
+      <MenuItem id="Change SMID-&amp;Profile - No samples Received" OnClick="mnuChangeCustColl_" Tag="RDMX" Group="UNCOMMIT" type="MENU"></MenuItem>
+      <MenuItem id="A&amp;dd Samples to Job" OnClick="mnuAddBarcodes_" Tag="VWPX" Group="UNCOMMIT" type="MENU"></MenuItem>
+    </MenuItem>
+    <MenuItem id="bar3" type="BAR"></MenuItem>
+    <MenuItem id="Utilities" type="MENU">
+      <MenuItem id="&amp;Rescan Documents" OnClick="mnuRescan_" type="MENU" Tag="VW"></MenuItem>
+      <MenuItem id="&amp;View Documents" OnClick="mnuDocView_" type="MENU" Tag="VW"></MenuItem>
+    </MenuItem>
+
+  </TopLevelMenu>
+</root>

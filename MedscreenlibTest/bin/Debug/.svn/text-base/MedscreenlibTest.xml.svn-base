@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MedscreenlibTest
+</name>
+</assembly>
+<members>
+<member name="P:MedscreenlibTest.MedscreenTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:MedscreenlibTest.MedscreenTest.GetLoginIdTest">
+	<summary>
+A test for GetLoginId
+</summary>
+</member><member name="M:MedscreenlibTest.MedscreenTest.GetLoginIdTest1">
+	<summary>
+A test for GetLoginId
+</summary>
+</member><member name="M:MedscreenlibTest.MedscreenTest.FindUsersTest">
+	<summary>
+A test for FindUsers
+</summary>
+</member><member name="M:MedscreenlibTest.MedscreenTest.MatchWholeWordTest">
+	<summary>
+A test for MatchWholeWord
+</summary>
+</member><member name="T:MedscreenlibTest.MedscreenTest">
+	<summary>
+This is a test class for MedscreenTest and is intended
+to contain all MedscreenTest Unit Tests
+</summary>
+</member>
+</members>
+</doc>

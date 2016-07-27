@@ -1,0 +1,68 @@
+<root>
+  <TopLevelMenu id="ProfileContext" OnClick="ProfileHeadContext_" type="MENU">
+    <MenuItem id="Edit &amp;Customer Profile details" OnClick="mnuCustDetails_" type="MENU" Roles="MED_EDIT_CUSTOMERID,MED_CREATE_CUSTOMER"></MenuItem>
+    <MenuItem id="Edit &amp;Prices"   OnClick="mnuEditPrices_" type="MENU" Roles="MED_EDIT_PRICES"></MenuItem>
+    <MenuItem id="Edit &amp;Addresses"  OnClick="mnuEditCustAddress_" type="MENU"></MenuItem>
+    <MenuItem id="Customer Profile &amp;Reports"  type="MENU">
+      <MenuItem id="&amp;HTML Reports" type="MENU">
+        <MenuItem id="&amp;Sample Reports" type="MENU">
+          <MenuItem id="&amp;Active Samples" OnClick="Report_handler" Tag="0000000064" type="REPORTCRYSTAL"></MenuItem>
+          <MenuItem id="&amp;SMID Sample Report" OnClick="Report_handler" Tag="0000000060" type="REPORTCRYSTAL"></MenuItem>
+          <MenuItem id="&amp;Positivity Report" OnClick="mnuCustPositives_"  type="MENU"></MenuItem>
+          <MenuItem id="Co&amp;mmitted samples"  OnClick="mnuCustCommitted_" type="MENU"></MenuItem>
+          <MenuItem id="&amp;Cancelled Sample Report" OnClick="Report_handler" Tag="0000000069" type="REPORTCRYSTAL"></MenuItem>
+          <MenuItem id="Cardif&amp;f Sample Report" OnClick="mnuCardiffSamples_"  type="MENU"></MenuItem>
+
+        </MenuItem>
+        <MenuItem id="&amp;Collection Reports" type="MENU">
+          <MenuItem id="&amp;Collection Report" OnClick="mnuSMIDCollectionReport_"  type="MENU"></MenuItem>
+          <MenuItem id="&amp;Cancellations" OnClick="Report_handler" Tag="0000000065" type="REPORTCRYSTAL"></MenuItem>
+          <MenuItem id="&amp;Call out Report" OnClick="Report_handler" Tag="0000000066" type="REPORTCRYSTAL"></MenuItem>
+          <MenuItem id="&amp;Progamme Manager Rep" OnClick="Report_handler" Tag="0000000067" type="REPORTCRYSTAL"></MenuItem>
+        </MenuItem>
+        <MenuItem id="&amp;Vessel Report" OnClick="Report_handler" Tag="0000000025" type="REPORTHTML"></MenuItem>
+        <MenuItem id="&amp;Profile Price List" OnClick="Report_handler" Tag="0000000056" type="REPORTCRYSTAL"></MenuItem>
+        <MenuItem id="&amp;Group Fleet Report" OnClick="mnuFleetReport_"  type="MENU"></MenuItem>
+      </MenuItem>
+      <MenuItem id="&amp;CSV Exports" type="MENU">
+        <MenuItem id="&amp;Fleet Data" OnClick="Report_handler" Tag="0000000027" type="REPORTHTML"></MenuItem>
+      </MenuItem>
+    </MenuItem>
+    <MenuItem id="bar1"  type="BAR"></MenuItem>
+    <MenuItem id="&amp;Customer profile support"  type="MENU">
+      <MenuItem id="&amp;Customer profile options" OnClick="mnuCustOptions_" type="MENU"></MenuItem>
+      <MenuItem id="Customer profile &amp;services"  OnClick="mnuCustServices_" type="MENU"></MenuItem>
+      <MenuItem id="&amp;Customer Profile Collection Options" OnClick="mnuCustCollOptions_" type="MENU" Roles="MED_EDIT_CUSTOMERID,MED_CREATE_CUSTOMER,QA_USER"></MenuItem>
+      <MenuItem id="bar2" type="BAR"></MenuItem>
+      <MenuItem id="&amp;Add comment"  OnClick="mnuNewCustComment_" type="MENU"></MenuItem>
+      <MenuItem id="&amp;Raise issue"  OnClick="mnuNewCustIssue_" type="MENU"></MenuItem>
+      <MenuItem id="bar3" type="BAR"></MenuItem>
+      <MenuItem id="&amp;Profile test panel" OnClick="mnuTestPanels_" type="MENU" Roles="MED_EDIT_CUSTOMERID,MED_CREATE_CUSTOMER"></MenuItem>
+      <MenuItem id="Change &amp;Account Status" OnClick="mnuChangeStatus_" type="MENU" Roles="MED_EDIT_CUSTOMERID,MED_CREATE_CUSTOMER"></MenuItem>
+      <MenuItem id="C&amp;hange Industry" OnClick="mnuIndustry_" type="MENU" Roles="MED_EDIT_CUSTOMERID,MED_CREATE_CUSTOMER"></MenuItem>
+      <MenuItem id="bar4" type="BAR"></MenuItem>
+      <MenuItem id="Make Child of &amp;Barcode Account" OnClick="mnuSetChild_" type="MENU" Roles="MED_EDIT_CUSTOMERID,MED_CREATE_CUSTOMER" Group="CHILD"></MenuItem>
+      <MenuItem id="Remove as Child" OnClick="mnuUnSetChild_" type="MENU" Roles="MED_EDIT_CUSTOMERID,MED_CREATE_CUSTOMER" Group="NOCHILD"></MenuItem>
+      <MenuItem id="bar5" type="BAR"></MenuItem>
+      <MenuItem id="&amp;PasswordLetter" OnClick="mnuPasswordLetter_" type="MENU" Roles="MED_EDIT_CUSTOMERID,MED_CREATE_CUSTOMER" ></MenuItem>
+      <MenuItem id="&amp;View Documents" OnClick="mnuDocView_" type="MENU"  ></MenuItem>
+      <MenuItem id="&amp;Programme Management" type ="MENU">
+        <MenuItem id="&amp;Email Contact" OnClick="mnuProgManContact_" type ="MENU"/>
+        <MenuItem id="Edit &amp;Information" OnClick="mnuCustProgMan_" type ="MENU"/>
+      </MenuItem>
+    </MenuItem>
+    <MenuItem id="&amp;View Collections" OnClick="mnuShowCollections_" type="MENU"></MenuItem>
+    <MenuItem id="&amp;Show Invoices" OnClick="mnuShowInvoices_" type="MENU"></MenuItem>
+    <MenuItem id="Show Last &amp;45 Days Invoices " OnClick="mnuLast45Invoices_" type="MENU"></MenuItem>
+    <MenuItem id="bar2"  type="BAR"></MenuItem>
+    <MenuItem id="New &amp;Vessel" OnClick="mnuNewVessel_" type="MENU"></MenuItem>
+    <MenuItem id="New Customer &amp;Site" OnClick="mnuNewCustomerSite_" type="MENU" ></MenuItem>
+    <MenuItem id="Create account from &amp;Template for this SMID"  OnClick="mnuNewCustomer_" type="MENU" Roles="MED_CREATE_CUSTOMER"></MenuItem>
+    <MenuItem id="C&amp;lone selected SMID-Profile"  OnClick="mnuCloneCustomer_" type="MENU" Roles="MED_CREATE_CUSTOMER" ></MenuItem>
+    <MenuItem id="Add &amp;Scheduled Report"  OnClick="mnuAddSched_" type="MENU" Roles="IT_SUPPORT" ></MenuItem>
+
+
+
+  </TopLevelMenu>
+</root>
+

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0777dfcf-b386-4a0d-82ba-ca36d36f031a" name="taylor@DEVELOPERSTS 2014-04-15 11:36:24" runUser="CONCATENO\taylor" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="aa3681a8-7456-40da-9f65-13b43055f881">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Documents and Settings\taylor\My Documents\Visual Studio 2008\Projects\Medscreenlib08\TestResults\taylor_DEVELOPERSTS 2014-04-15 11_36_24">
+      <DeploymentItem filename="C:\Program Files\Microsoft Visual Studio 9.0\Visual Studio Tools for Office\PIA\Office11\Microsoft.Office.Interop.Excel.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\taylor\My Documents\Visual Studio Projects\Medscreenlib\bin\FreeSMTP.Net.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\taylor\My Documents\Visual Studio 2008\Projects\Medscreenlib08\bin\MedscreenLib.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\taylor\My Documents\Visual Studio 2008\Projects\ActiveDirectory\ActiveDirectoryWrapper\bin\Release\ActiveDirectoryWrapper.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\taylor\My Documents\Visual Studio 2008\Projects\dlls\BenjaminSchroeter.GeoNames.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="5" error="0" failed="2" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2014-04-15T11:36:24.7667861+01:00" queuing="2014-04-15T11:36:25.2667861+01:00" start="2014-04-15T11:36:25.2824111+01:00" finish="2014-04-15T11:36:28.2511611+01:00" />
+  <TestDefinitions>
+    <UnitTest name="GetLoginIdTest1" storage="c:\documents and settings\taylor\my documents\visual studio 2008\projects\medscreenlib08\medscreenlibtest\bin\release\medscreenlibtest.dll" id="780de2fd-cd9a-7eae-8dff-915f1141c9ed">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0f3ad682-86b1-475c-8e9a-bfc330be422e" />
+      <TestMethod codeBase="C:\Documents and Settings\taylor\My Documents\Visual Studio 2008\Projects\Medscreenlib08\MedscreenlibTest\bin\Release\MedscreenlibTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MedscreenlibTest.MedscreenTest, MedscreenlibTest" name="GetLoginIdTest1" />
+    </UnitTest>
+    <UnitTest name="ReplaceLastCharWithStringTest" storage="c:\documents and settings\taylor\my documents\visual studio 2008\projects\medscreenlib08\medscreenlibtest\bin\release\medscreenlibtest.dll" id="9891bd89-e111-ac2a-cd12-6a5c61c17b32">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="450f7b9d-3243-4c19-9938-113e3aa077e6" />
+      <TestMethod codeBase="C:\Documents and Settings\taylor\My Documents\Visual Studio 2008\Projects\Medscreenlib08\MedscreenlibTest\bin\Release\MedscreenlibTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MedscreenlibTest.MedscreenTest, MedscreenlibTest" name="ReplaceLastCharWithStringTest" />
+    </UnitTest>
+    <UnitTest name="FindUsersTest" storage="c:\documents and settings\taylor\my documents\visual studio 2008\projects\medscreenlib08\medscreenlibtest\bin\release\medscreenlibtest.dll" id="fff4e459-7c8e-18fb-9ec1-03b1700d81b9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9fe9b8c4-2541-4209-ae05-e3fcf4f878fe" />
+      <TestMethod codeBase="C:\Documents and Settings\taylor\My Documents\Visual Studio 2008\Projects\Medscreenlib08\MedscreenlibTest\bin\Release\MedscreenlibTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MedscreenlibTest.MedscreenTest, MedscreenlibTest" name="FindUsersTest" />
+    </UnitTest>
+    <UnitTest name="MatchWholeWordTest2" storage="c:\documents and settings\taylor\my documents\visual studio 2008\projects\medscreenlib08\medscreenlibtest\bin\release\medscreenlibtest.dll" id="1321b496-d8b8-291b-19f9-3c5661246548">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="546e3528-f40c-4cbe-9135-a34cd6f12b95" />
+      <TestMethod codeBase="C:\Documents and Settings\taylor\My Documents\Visual Studio 2008\Projects\Medscreenlib08\MedscreenlibTest\bin\Release\MedscreenlibTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MedscreenlibTest.MedscreenTest, MedscreenlibTest" name="MatchWholeWordTest2" />
+    </UnitTest>
+    <UnitTest name="GetLoginIdTest" storage="c:\documents and settings\taylor\my documents\visual studio 2008\projects\medscreenlib08\medscreenlibtest\bin\release\medscreenlibtest.dll" id="3ff00a6c-2d02-0148-dcc8-2ae55ada24a4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="958d8fc4-54ac-4caa-99b3-3bc06e75b4fb" />
+      <TestMethod codeBase="C:\Documents and Settings\taylor\My Documents\Visual Studio 2008\Projects\Medscreenlib08\MedscreenlibTest\bin\Release\MedscreenlibTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MedscreenlibTest.MedscreenTest, MedscreenlibTest" name="GetLoginIdTest" />
+    </UnitTest>
+    <UnitTest name="MatchWholeWordTest3" storage="c:\documents and settings\taylor\my documents\visual studio 2008\projects\medscreenlib08\medscreenlibtest\bin\release\medscreenlibtest.dll" id="ebc453ba-a0cc-0e0b-a141-71070135b602">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="affd4f32-d529-41b6-8e3d-a301677c39d9" />
+      <TestMethod codeBase="C:\Documents and Settings\taylor\My Documents\Visual Studio 2008\Projects\Medscreenlib08\MedscreenlibTest\bin\Release\MedscreenlibTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MedscreenlibTest.MedscreenTest, MedscreenlibTest" name="MatchWholeWordTest3" />
+    </UnitTest>
+    <UnitTest name="MatchWholeWordTest1" storage="c:\documents and settings\taylor\my documents\visual studio 2008\projects\medscreenlib08\medscreenlibtest\bin\release\medscreenlibtest.dll" id="51b838b3-9668-6cf0-e0f1-57e105870206">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="902e3c46-6989-44cc-927d-a3bc20cbf577" />
+      <TestMethod codeBase="C:\Documents and Settings\taylor\My Documents\Visual Studio 2008\Projects\Medscreenlib08\MedscreenlibTest\bin\Release\MedscreenlibTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MedscreenlibTest.MedscreenTest, MedscreenlibTest" name="MatchWholeWordTest1" />
+    </UnitTest>
+    <UnitTest name="MatchWholeWordTest" storage="c:\documents and settings\taylor\my documents\visual studio 2008\projects\medscreenlib08\medscreenlibtest\bin\release\medscreenlibtest.dll" id="60357af6-abd3-fbc5-2e88-c8b7910e64b0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="13598dcd-446d-48a1-a5c7-f63a1cb4cc49" />
+      <TestMethod codeBase="C:\Documents and Settings\taylor\My Documents\Visual Studio 2008\Projects\Medscreenlib08\MedscreenlibTest\bin\Release\MedscreenlibTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MedscreenlibTest.MedscreenTest, MedscreenlibTest" name="MatchWholeWordTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1321b496-d8b8-291b-19f9-3c5661246548" executionId="546e3528-f40c-4cbe-9135-a34cd6f12b95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ff00a6c-2d02-0148-dcc8-2ae55ada24a4" executionId="958d8fc4-54ac-4caa-99b3-3bc06e75b4fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51b838b3-9668-6cf0-e0f1-57e105870206" executionId="902e3c46-6989-44cc-927d-a3bc20cbf577" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60357af6-abd3-fbc5-2e88-c8b7910e64b0" executionId="13598dcd-446d-48a1-a5c7-f63a1cb4cc49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="780de2fd-cd9a-7eae-8dff-915f1141c9ed" executionId="0f3ad682-86b1-475c-8e9a-bfc330be422e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9891bd89-e111-ac2a-cd12-6a5c61c17b32" executionId="450f7b9d-3243-4c19-9938-113e3aa077e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebc453ba-a0cc-0e0b-a141-71070135b602" executionId="affd4f32-d529-41b6-8e3d-a301677c39d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fff4e459-7c8e-18fb-9ec1-03b1700d81b9" executionId="9fe9b8c4-2541-4209-ae05-e3fcf4f878fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="546e3528-f40c-4cbe-9135-a34cd6f12b95" testId="1321b496-d8b8-291b-19f9-3c5661246548" testName="MatchWholeWordTest2" computerName="DEVELOPERSTS" duration="00:00:00.0569817" startTime="2014-04-15T11:36:25.2980361+01:00" endTime="2014-04-15T11:36:25.7980361+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="958d8fc4-54ac-4caa-99b3-3bc06e75b4fb" testId="3ff00a6c-2d02-0148-dcc8-2ae55ada24a4" testName="GetLoginIdTest" computerName="DEVELOPERSTS" duration="00:00:00.1851679" startTime="2014-04-15T11:36:25.7980361+01:00" endTime="2014-04-15T11:36:26.0011611+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;crippsk&gt;. Actual:&lt;&gt;. </Message>
+          <StackTrace>   at MedscreenlibTest.MedscreenTest.GetLoginIdTest() in C:\Documents and Settings\taylor\My Documents\Visual Studio 2008\Projects\Medscreenlib08\MedscreenlibTest\MedscreenTest.vb:line 66
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="902e3c46-6989-44cc-927d-a3bc20cbf577" testId="51b838b3-9668-6cf0-e0f1-57e105870206" testName="MatchWholeWordTest1" computerName="DEVELOPERSTS" duration="00:00:00.0049876" startTime="2014-04-15T11:36:26.0011611+01:00" endTime="2014-04-15T11:36:26.0011611+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="13598dcd-446d-48a1-a5c7-f63a1cb4cc49" testId="60357af6-abd3-fbc5-2e88-c8b7910e64b0" testName="MatchWholeWordTest" computerName="DEVELOPERSTS" duration="00:00:00.0003333" startTime="2014-04-15T11:36:26.0167861+01:00" endTime="2014-04-15T11:36:26.0167861+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0f3ad682-86b1-475c-8e9a-bfc330be422e" testId="780de2fd-cd9a-7eae-8dff-915f1141c9ed" testName="GetLoginIdTest1" computerName="DEVELOPERSTS" duration="00:00:00.0342852" startTime="2014-04-15T11:36:26.0167861+01:00" endTime="2014-04-15T11:36:26.0636611+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at MedscreenlibTest.MedscreenTest.GetLoginIdTest1() in C:\Documents and Settings\taylor\My Documents\Visual Studio 2008\Projects\Medscreenlib08\MedscreenlibTest\MedscreenTest.vb:line 80
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="450f7b9d-3243-4c19-9938-113e3aa077e6" testId="9891bd89-e111-ac2a-cd12-6a5c61c17b32" testName="ReplaceLastCharWithStringTest" computerName="DEVELOPERSTS" duration="00:00:00.0020251" startTime="2014-04-15T11:36:26.0636611+01:00" endTime="2014-04-15T11:36:26.0792861+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="affd4f32-d529-41b6-8e3d-a301677c39d9" testId="ebc453ba-a0cc-0e0b-a141-71070135b602" testName="MatchWholeWordTest3" computerName="DEVELOPERSTS" duration="00:00:00.0003170" startTime="2014-04-15T11:36:26.0792861+01:00" endTime="2014-04-15T11:36:26.0949111+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9fe9b8c4-2541-4209-ae05-e3fcf4f878fe" testId="fff4e459-7c8e-18fb-9ec1-03b1700d81b9" testName="FindUsersTest" computerName="DEVELOPERSTS" duration="00:00:02.1403711" startTime="2014-04-15T11:36:26.0949111+01:00" endTime="2014-04-15T11:36:28.2355361+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;&gt;. Actual:&lt;(null)&gt;. </Message>
+          <StackTrace>   at MedscreenlibTest.MedscreenTest.FindUsersTest() in C:\Documents and Settings\taylor\My Documents\Visual Studio 2008\Projects\Medscreenlib08\MedscreenlibTest\MedscreenTest.vb:line 92
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

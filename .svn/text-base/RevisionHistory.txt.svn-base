@@ -1,0 +1,3 @@
+version 1.0.1.33
+Added Overload to GetNextFilename that will allow duplicate files
+Added Function ValidateEmail and error enumeration for it.

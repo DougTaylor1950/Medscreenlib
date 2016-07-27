@@ -1,0 +1,960 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2DF615E1-0FFC-4AE5-A467-0AE8A7CA7B1E}</ProjectGuid>
+    <SccProjectName>MedscreenCommonGui/Branch1</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccProvider>MSSCCI:PushOk SVNSCC</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>MedscreenCommonGui</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>MedscreenCommonGui</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <PublishUrl>http://localhost/MedscreenCommonGui/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>MedscreenCommonGui.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>MedscreenCommonGui.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == '2004|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>MedscreenCommonGui.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>r2004=TRUE</DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release2004|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>MedscreenCommonGui.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>R2004=TRUE</DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BAOBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BAOBase\BAOBase\bin\Debug\BAOBase.dll</HintPath>
+    </Reference>
+    <Reference Include="BAOCardiff2, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CardiffMonitor\BAOCardiff2\bin\Debug\BAOCardiff2.dll</HintPath>
+    </Reference>
+    <Reference Include="BAOLabware, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LabwareTestBed\BAOLabware\bin\Debug\BAOLabware.dll</HintPath>
+    </Reference>
+    <Reference Include="BOSampleManager, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\XMLSoapService\BOSampleManager\bin\Release\BOSampleManager.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine">
+      <Name>CrystalDecisions.CrystalReports.Engine</Name>
+      <HintPath>..\..\..\..\..\..\Program Files\Business Objects\Common\3.5\managed\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared">
+      <Name>CrystalDecisions.Shared</Name>
+      <HintPath>..\..\..\..\..\..\Program Files\Business Objects\Common\3.5\managed\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="DAOCardiffStarLims, Version=1.0.0.15130, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WitnessStatements\DAOCardiffStarLims\bin\DAOCardiffStarLims.dll</HintPath>
+    </Reference>
+    <Reference Include="DAOLabWare, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LabwareTestBed\BAOLabware\bin\Debug\DAOLabWare.dll</HintPath>
+    </Reference>
+    <Reference Include="DAOSM, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\XMLSoapService\BOSampleManager\bin\Release\DAOSM.dll</HintPath>
+    </Reference>
+    <Reference Include="GMCOMAPILib">
+      <Name>GMCOMAPILib</Name>
+      <HintPath>..\..\DLLS\GMCOMAPILib.dll</HintPath>
+    </Reference>
+    <Reference Include="ListViewEx">
+      <Name>ListViewEx</Name>
+      <HintPath>..\..\DLLS\ListViewEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Odbc">
+      <Name>Microsoft.Data.Odbc</Name>
+      <HintPath>..\..\..\..\..\..\Program Files\Microsoft.Net\Odbc.Net\Microsoft.Data.Odbc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml">
+      <Name>Microsoft.mshtml</Name>
+      <HintPath>C:\Program Files\Microsoft.NET\Primary Interop Assemblies\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.Office.Interop.Word, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="TreeViewMS, Version=1.0.4015.31553, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Visual Studio Projects\TreeViewMS\bin\Release\TreeViewMS.dll</HintPath>
+    </Reference>
+    <Reference Include="UtilityLibrary">
+      <Name>UtilityLibrary</Name>
+      <HintPath>..\UtilityLibrary\bin\Release\UtilityLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="VbPowerPack2002">
+      <Name>VbPowerPack2002</Name>
+      <HintPath>..\VbPowerPack_V1\VbPowerPack Source\VbPowerPack\bin\VbPowerPack2002.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountServices.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AccTypeService.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AccTypeService.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AdcResource.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdcResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="AddressControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ClassInit.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CollectionMenu.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CollectionSupport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CollPayPricing.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CollPayPricing.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ComboboxBase.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CommnonForms.vb">
+    </Compile>
+    <Compile Include="CreditCard.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CurrencyConvert.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerMenu.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CustomerSupport.vb" />
+    <Compile Include="CustomTree.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="datgridcombo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DiaryListView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FindAddress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formtest2.Designer.vb">
+      <DependentUpon>Formtest2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formtest2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnalyticalCentre.Designer.vb">
+      <DependentUpon>frmAnalyticalCentre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnalyticalCentre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssignOfficer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBarcodes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCallOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCallOutCMNO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCardPay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCardPay2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCollComment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCollDefaults.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCollectionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCollOfficer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCollOfficerEd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCollPay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCollPayEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCollPort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCopyPrices.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCrystalReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCurrencyEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerOption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerSelection2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerService.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEdInvoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditContact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExpEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFileSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFindDonor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHolidays.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIndustryDefaults.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInstrument.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListViewCustomise.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatrix.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMergeVessels.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMRO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPhraseEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPricing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProgrammeManage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRandomNumbers.Designer.vb">
+      <DependentUpon>frmRandomNumbers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRandomNumbers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReasons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportSchedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectCollector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectInfoReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectPort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSendOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSmidProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStatusSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeamRegion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmtest.Designer.vb">
+      <DependentUpon>Frmtest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frmtest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTestPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTestShedEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVessel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVesselSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewDocs.Designer.vb">
+      <DependentUpon>frmViewDocs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewDocs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWorkflow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoldMine.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ListColumnObjects.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ListItemObjects.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MedscreenCommonGUIConfig.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Nodes.vb" />
+    <Compile Include="NodesCollection.vb" />
+    <Compile Include="NodesCustomer.vb" />
+    <Compile Include="NodesPeople.vb" />
+    <Compile Include="NodesSystemOthers.vb" />
+    <Compile Include="NodeSupport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OptionsListView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Painting.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PanelControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PhraseComboBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PriceBookSupport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PricingSupport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProgramUsage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SampleMenu.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SmidCombo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SMIDProfileCombo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolTipEx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransparentSheetControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserOptions.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VDdiscountPanel.Designer.vb">
+      <DependentUpon>VDdiscountPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VDdiscountPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VolDiscountPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebBrowserControl.Designer.vb">
+      <DependentUpon>WebBrowserControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WebBrowserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WebBrowserEx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="win32.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XMLSchema1.vb">
+      <SubType>code</SubType>
+    </Compile>
+    <Content Include="AccTypeService.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AccTypeService.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="AdcResource.xsd" />
+    <Content Include="AlphaContextMenu.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CollContextMenu.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CollHeadContextMenu.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CollPayPricing.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CollPayPricing.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="CollPayRates.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InvoiceContextMenu.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="options.xml" />
+    <Content Include="PanelDetails.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProfileContextMenu.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="AccTypeService.xsc">
+      <DependentUpon>AccTypeService.xsd</DependentUpon>
+    </None>
+    <None Include="AdcResource.xsc">
+      <DependentUpon>AdcResource.xsd</DependentUpon>
+    </None>
+    <None Include="AdcResource.xss">
+      <DependentUpon>AdcResource.xsd</DependentUpon>
+    </None>
+    <None Include="app.config" />
+    <None Include="CollPayPricing.xsc">
+      <DependentUpon>CollPayPricing.xsd</DependentUpon>
+    </None>
+    <None Include="CollPayPricing.xss">
+      <DependentUpon>CollPayPricing.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\Generate.ico" />
+    <None Include="Resources\CHECKMRK.ICO" />
+    <None Include="Resources\Pharmacy.ico" />
+    <None Include="Resources\radiooff.bmp" />
+    <None Include="Resources\radioon.bmp" />
+    <None Include="Resources\Pharmacy1.ico" />
+    <None Include="Resources\DISK10.ICO" />
+    <None Include="Resources\FLOPPY_2.ICO" />
+    <None Include="Resources\Cross16.ico" />
+    <None Include="Resources\NewDoc.ICO" />
+    <None Include="Resources\Mail1.ico" />
+    <Content Include="SampleContextMenu.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SMIDContextMenu.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SMIDVesselHeaderContextMenu.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VesselContextMenu.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VesselHeaderContextMenu.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x:\dbtest\inifiles\AccTypeService.xml">
+      <Link>AccTypeService.xml</Link>
+    </Content>
+    <Content Include="XMLSchema1.xsd" />
+    <None Include="AccTypeService.xsx">
+      <DependentUpon>AccTypeService.xsd</DependentUpon>
+    </None>
+    <None Include="AdcResource.xsx">
+      <DependentUpon>AdcResource.xsd</DependentUpon>
+    </None>
+    <None Include="CollPayPricing.xsx">
+      <DependentUpon>CollPayPricing.xsd</DependentUpon>
+    </None>
+    <None Include="MedscreenCommonGUI.DLL.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="XMLSchema1.xsx">
+      <DependentUpon>XMLSchema1.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="adc.resources" />
+    <EmbeddedResource Include="AdcResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AdcResource.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddressControl.bmp" />
+    <EmbeddedResource Include="AddressControl.resx">
+      <DependentUpon>AddressControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CCPic.bmp" />
+    <EmbeddedResource Include="ComboboxBase.resx">
+      <DependentUpon>ComboboxBase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommnonForms.resx">
+      <DependentUpon>CommnonForms.vb</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreditCard.resx">
+      <DependentUpon>CreditCard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrencyConvert.resx">
+      <DependentUpon>CurrencyConvert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerDetails.resx">
+      <DependentUpon>CustomerDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomTree.resx">
+      <DependentUpon>CustomTree.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datgridcombo.resx">
+      <DependentUpon>datgridcombo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindAddress.resx">
+      <DependentUpon>FindAddress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formtest2.resx">
+      <DependentUpon>Formtest2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddress.resx">
+      <DependentUpon>frmAddress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnalyticalCentre.resx">
+      <DependentUpon>frmAnalyticalCentre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssignOfficer.resx">
+      <DependentUpon>frmAssignOfficer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBarcodes.resx">
+      <DependentUpon>frmBarcodes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCallOut.resx">
+      <DependentUpon>frmCallOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCallOutCMNO.resx">
+      <DependentUpon>frmCallOutCMNO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCardPay.resx">
+      <DependentUpon>frmCardPay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCardPay2.resx">
+      <DependentUpon>frmCardPay2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCollComment.resx">
+      <DependentUpon>FrmCollComment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCollDefaults.resx">
+      <DependentUpon>frmCollDefaults.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCollectionForm.resx">
+      <DependentUpon>frmCollectionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCollOfficer.resx">
+      <DependentUpon>FrmCollOfficer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCollOfficerEd.resx">
+      <DependentUpon>frmCollOfficerEd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCollPay.resx">
+      <DependentUpon>frmCollPay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCollPayEntry.resx">
+      <DependentUpon>frmCollPayEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCollPort.resx">
+      <DependentUpon>frmCollPort.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCopyPrices.resx">
+      <DependentUpon>frmCopyPrices.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCrystalReport.resx">
+      <DependentUpon>frmCrystalReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCurrencyEntry.resx">
+      <DependentUpon>frmCurrencyEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerOption.resx">
+      <DependentUpon>frmCustomerOption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerOptions.resx">
+      <DependentUpon>frmCustomerOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerSelection2.resx">
+      <DependentUpon>frmCustomerSelection2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerService.resx">
+      <DependentUpon>frmCustomerService.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiary.resx">
+      <DependentUpon>frmDiary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEdInvoice.resx">
+      <DependentUpon>FrmEdInvoice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditContact.resx">
+      <DependentUpon>frmEditContact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExpEntry.resx">
+      <DependentUpon>frmExpEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFileSelect.resx">
+      <DependentUpon>frmFileSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFindDonor.resx">
+      <DependentUpon>frmFindDonor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHolidays.resx">
+      <DependentUpon>frmHolidays.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIndustryDefaults.resx">
+      <DependentUpon>frmIndustryDefaults.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInstrument.resx">
+      <DependentUpon>frmInstrument.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListViewCustomise.resx">
+      <DependentUpon>frmListViewCustomise.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMatrix.resx">
+      <DependentUpon>frmMatrix.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMergeVessels.resx">
+      <DependentUpon>frmMergeVessels.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessages.resx">
+      <DependentUpon>frmMessages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMRO.resx">
+      <DependentUpon>FrmMRO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPhraseEditor.resx">
+      <DependentUpon>FrmPhraseEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPort.resx">
+      <DependentUpon>frmPort.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPricing.resx">
+      <DependentUpon>FrmPricing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintPassword.resx">
+      <DependentUpon>frmPrintPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProgrammeManage.resx">
+      <DependentUpon>frmProgrammeManage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRandomNumbers.resx">
+      <DependentUpon>frmRandomNumbers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReasons.resx">
+      <DependentUpon>frmReasons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportSchedule.resx">
+      <DependentUpon>frmReportSchedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectCollector.resx">
+      <DependentUpon>frmSelectCollector.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectInfoReport.resx">
+      <DependentUpon>frmSelectInfoReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectPort.resx">
+      <DependentUpon>frmSelectPort.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSendOptions.resx">
+      <DependentUpon>frmSendOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSmidProfile.resx">
+      <DependentUpon>frmSmidProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatusSelect.resx">
+      <DependentUpon>frmStatusSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeamRegion.resx">
+      <DependentUpon>frmTeamRegion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmtest.resx">
+      <DependentUpon>Frmtest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTestPanel.resx">
+      <DependentUpon>frmTestPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTestShedEntry.resx">
+      <DependentUpon>frmTestShedEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVessel.resx">
+      <DependentUpon>frmVessel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVesselSelect.resx">
+      <DependentUpon>frmVesselSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewDocs.resx">
+      <DependentUpon>frmViewDocs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWorkflow.resx">
+      <DependentUpon>frmWorkflow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsListView.resx">
+      <DependentUpon>OptionsListView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelControl.resx">
+      <DependentUpon>PanelControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramUsage.resx">
+      <DependentUpon>ProgramUsage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VolDiscountPanel.resx">
+      <DependentUpon>VolDiscountPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebBrowserControl.resx">
+      <DependentUpon>WebBrowserControl.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ActiveDirectory\ActiveDirectoryWrapper\ActiveDirectoryWrapper.vbproj">
+      <Project>{750EA437-4D5D-49D6-93DA-EE5EACE08F15}</Project>
+      <Name>ActiveDirectoryWrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intranet08\Intranet.vbproj">
+      <Project>{78FEED41-8B84-45B2-8C48-D3A082399488}</Project>
+      <Name>Intranet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Medscreenlib08\MedscreenLib.vbproj">
+      <Project>{DB82E0F5-6BC1-46E8-9F35-349413C76F92}</Project>
+      <Name>MedscreenLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Reporter08\Reporter.vbproj">
+      <Project>{129AC6CB-13A0-4BCE-8AE0-781560248942}</Project>
+      <Name>Reporter</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

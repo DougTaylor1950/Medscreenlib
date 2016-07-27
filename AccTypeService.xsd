@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<xs:schema id="AccountTypeServices" targetNamespace="http://tempuri.org/AccTypeService.xsd" xmlns:mstns="http://tempuri.org/AccTypeService.xsd" xmlns="http://tempuri.org/AccTypeService.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="AccountTypeServices" msdata:IsDataSet="true" msdata:Locale="en-GB" msdata:EnforceConstraints="False">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="AccType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string" minOccurs="0" />
+							<xs:element name="Services" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Service" nillable="true" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:simpleContent msdata:ColumnName="Service_Text" msdata:Ordinal="0">
+													<xs:extension base="xs:string"></xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

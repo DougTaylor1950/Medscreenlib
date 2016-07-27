@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MedscreenLib", "MedscreenLib.vbproj", "{DB82E0F5-6BC1-46E8-9F35-349413C76F92}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MedscreenlibTest", "MedscreenlibTest\MedscreenlibTest.vbproj", "{68501A74-2250-4D75-8FD4-43A191CFA37E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11C36A55-CCE3-4315-A751-612A8362684A}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		MedscreenLib.vsmdi = MedscreenLib.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MedscreenLib.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		2004|Any CPU = 2004|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release2004|Any CPU = Release2004|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB82E0F5-6BC1-46E8-9F35-349413C76F92}.2004|Any CPU.ActiveCfg = 2004|Any CPU
+		{DB82E0F5-6BC1-46E8-9F35-349413C76F92}.2004|Any CPU.Build.0 = 2004|Any CPU
+		{DB82E0F5-6BC1-46E8-9F35-349413C76F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB82E0F5-6BC1-46E8-9F35-349413C76F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB82E0F5-6BC1-46E8-9F35-349413C76F92}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{DB82E0F5-6BC1-46E8-9F35-349413C76F92}.Development|Any CPU.Build.0 = Development|Any CPU
+		{DB82E0F5-6BC1-46E8-9F35-349413C76F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB82E0F5-6BC1-46E8-9F35-349413C76F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB82E0F5-6BC1-46E8-9F35-349413C76F92}.Release2004|Any CPU.ActiveCfg = Release2004|Any CPU
+		{DB82E0F5-6BC1-46E8-9F35-349413C76F92}.Release2004|Any CPU.Build.0 = Release2004|Any CPU
+		{68501A74-2250-4D75-8FD4-43A191CFA37E}.2004|Any CPU.ActiveCfg = Release|Any CPU
+		{68501A74-2250-4D75-8FD4-43A191CFA37E}.2004|Any CPU.Build.0 = Release|Any CPU
+		{68501A74-2250-4D75-8FD4-43A191CFA37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68501A74-2250-4D75-8FD4-43A191CFA37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68501A74-2250-4D75-8FD4-43A191CFA37E}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{68501A74-2250-4D75-8FD4-43A191CFA37E}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{68501A74-2250-4D75-8FD4-43A191CFA37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68501A74-2250-4D75-8FD4-43A191CFA37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68501A74-2250-4D75-8FD4-43A191CFA37E}.Release2004|Any CPU.ActiveCfg = Release|Any CPU
+		{68501A74-2250-4D75-8FD4-43A191CFA37E}.Release2004|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

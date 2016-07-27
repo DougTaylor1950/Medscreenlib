@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <assemblySettings>
+    <add key="PasswordBodyText" value="PasswordEmailCover.txt" />
+    <add key="LiveRoot" value="\\john\live\" />
+  </assemblySettings>
+  <CollectorOut>
+    <add key="CollRequestTemp" value="\\john\live\" />
+    <add key="CardAuth" value="FORCCAUTHr4" />
+  </CollectorOut>
+  <Connectors>
+    <add key="ICP" value="Persist Security Info=False;Initial Catalog=ICP;Data Source=andrew\netsdk;Packet Size=4096;Integrated Security=SSPI;workstation id=TS02DOCK;" />
+  </Connectors>
+  <Paths>
+    <add key="HELP" value="\\corp.concateno.com\medscreen\common\IT\help\" />
+  </Paths>
+  <HyperLinks>
+    <add key="Collection" value="http://ts02/WebCollManager/default.aspx?Action=collection&amp;ID=" />
+    <add key="job" value="http://ts02/WebCollManager/default.aspx?Action=job&amp;id=" />
+    <add key="jobs" value="http://ts02/WebCollManager/default.aspx?Action=jobs&amp;id=" />
+    <add key="Sample" value="http://ts02/WebCollManager/default.aspx?Action=SAMPLE&amp;ID=" />
+    <add key="Invoice" value="http://ts02/WebCollManager/default.aspx?Action=invoice&amp;ID=" />
+    <add key="Client" value="http://ts02/WebCollManager/default.aspx?Action=CLIENT&amp;id=" />
+    <add key="Contact" value="http://ts02/WebCollManager/default.aspx?Action=CONTACT&amp;id=" />
+    <add key="Contacts" value="http://ts02/WebCollManager/default.aspx?Action=CONTACTS&amp;id=" />
+    <add key="Vessel" value="http://ts02/WebCollManager/default.aspx?Action=VESSEL&amp;id=" />
+    <add key="Vessels" value="http://ts02/WebCollManager/default.aspx?Action=VESSELS&amp;id=" />
+
+    <add key="ContactStyleSheet" value="test302.xsl" />
+    <add key="ContactsStyleSheet" value="test302.xsl" />
+    <add key="CollStyleSheet" value="test302.xsl" />
+    <add key="JobStyleSheet" value="job2.xsl" />
+    <add key="CustStyleSheet" value="customer102.xslt" />
+  </HyperLinks>
+  <Validation>
+    <add key="EmailMask" value="^([a-zA-Z0-9_&amp;\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" />
+    <add key="SageMask" value="^[A-Z][0-9][0-9][0-9][0-9]|^[A-Z][A-Z][0-9][0-9][0-9][0-9]|^[A-Z][A-Z][A-Z][0-9][0-9][0-9]|^[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]" />
+  </Validation>
+  <Servers>
+    <add key="EMAILServer" value="172.16.0.8" />
+    <add key="GhostScript" value = "c:\program files\gs\gs9.00\lib\ps2pdf.bat" />
+  </Servers>
+  <Misc>
+    <add key="SpellSpecials" value="@| [AT],#| [HASH]" />
+  </Misc>
+<BLAT>
+  <add key="BLATCredentials" value="-u concateno\sprint -pw sprint" />
+  <add key="SERVER" value="mailhub.Europe.root" />
+</BLAT>
+</configuration>

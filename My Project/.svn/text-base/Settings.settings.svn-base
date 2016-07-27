@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="test" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">test</Value>
+    </Setting>
+    <Setting Name="CardiffSoapService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://ts02dock/CardiffSoap/service1.asmx</Value>
+    </Setting>
+    <Setting Name="FTPLOGOKRecipients" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">doug.taylor@concateno.com,simon.walker@concateno.com</Value>
+    </Setting>
+    <Setting Name="FTPLogFailRecipients" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">doug.taylor@concateno.com,simon.walker@concateno.com</Value>
+    </Setting>
+    <Setting Name="PasswordSoapService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://ts02dock/WebService1/Service1.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

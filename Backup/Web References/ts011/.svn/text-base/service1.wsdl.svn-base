@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://concateno.com/Cardiff" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://concateno.com/Cardiff" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://concateno.com/Cardiff">
+      <s:element name="GetReceivedSamples">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FromDate" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="stylesheet" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReceivedSamplesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReceivedSamplesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReceivedSamplesBySMIDProfile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FromDate" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="SMIDProfile" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="stylesheet" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReceivedSamplesBySMIDProfileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReceivedSamplesBySMIDProfileResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReceivedSamplesByCM">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CM" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="stylesheet" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReceivedSamplesByCMResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReceivedSamplesByCMResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="GetReceivedSamplesSoapIn">
+    <part name="parameters" element="s0:GetReceivedSamples" />
+  </message>
+  <message name="GetReceivedSamplesSoapOut">
+    <part name="parameters" element="s0:GetReceivedSamplesResponse" />
+  </message>
+  <message name="GetReceivedSamplesBySMIDProfileSoapIn">
+    <part name="parameters" element="s0:GetReceivedSamplesBySMIDProfile" />
+  </message>
+  <message name="GetReceivedSamplesBySMIDProfileSoapOut">
+    <part name="parameters" element="s0:GetReceivedSamplesBySMIDProfileResponse" />
+  </message>
+  <message name="GetReceivedSamplesByCMSoapIn">
+    <part name="parameters" element="s0:GetReceivedSamplesByCM" />
+  </message>
+  <message name="GetReceivedSamplesByCMSoapOut">
+    <part name="parameters" element="s0:GetReceivedSamplesByCMResponse" />
+  </message>
+  <portType name="CardiffServiceSoap">
+    <operation name="GetReceivedSamples">
+      <input message="s0:GetReceivedSamplesSoapIn" />
+      <output message="s0:GetReceivedSamplesSoapOut" />
+    </operation>
+    <operation name="GetReceivedSamplesBySMIDProfile">
+      <input message="s0:GetReceivedSamplesBySMIDProfileSoapIn" />
+      <output message="s0:GetReceivedSamplesBySMIDProfileSoapOut" />
+    </operation>
+    <operation name="GetReceivedSamplesByCM">
+      <input message="s0:GetReceivedSamplesByCMSoapIn" />
+      <output message="s0:GetReceivedSamplesByCMSoapOut" />
+    </operation>
+  </portType>
+  <binding name="CardiffServiceSoap" type="s0:CardiffServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="GetReceivedSamples">
+      <soap:operation soapAction="http://concateno.com/Cardiff/GetReceivedSamples" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetReceivedSamplesBySMIDProfile">
+      <soap:operation soapAction="http://concateno.com/Cardiff/GetReceivedSamplesBySMIDProfile" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetReceivedSamplesByCM">
+      <soap:operation soapAction="http://concateno.com/Cardiff/GetReceivedSamplesByCM" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="CardiffServiceSoap12" type="s0:CardiffServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    <operation name="GetReceivedSamples">
+      <soap12:operation soapAction="http://concateno.com/Cardiff/GetReceivedSamples" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </input>
+      <output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </output>
+    </operation>
+    <operation name="GetReceivedSamplesBySMIDProfile">
+      <soap12:operation soapAction="http://concateno.com/Cardiff/GetReceivedSamplesBySMIDProfile" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </input>
+      <output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </output>
+    </operation>
+    <operation name="GetReceivedSamplesByCM">
+      <soap12:operation soapAction="http://concateno.com/Cardiff/GetReceivedSamplesByCM" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </input>
+      <output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="CardiffService">
+    <port name="CardiffServiceSoap" binding="s0:CardiffServiceSoap">
+      <soap:address location="http://ts01/CardiffSoap/service1.asmx" />
+    </port>
+    <port name="CardiffServiceSoap12" binding="s0:CardiffServiceSoap12">
+      <soap12:address location="http://ts01/CardiffSoap/service1.asmx" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    </port>
+  </service>
+</definitions>

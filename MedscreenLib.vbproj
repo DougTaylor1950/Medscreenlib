@@ -1,0 +1,515 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DB82E0F5-6BC1-46E8-9F35-349413C76F92}</ProjectGuid>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>MedscreenLib</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>MedscreenLib</RootNamespace>
+    <StartupObject>MedscreenLib.%28None%29</StartupObject>
+    <WebReference_EnableProperties>true</WebReference_EnableProperties>
+    <WebReference_EnableSQLTypes>false</WebReference_EnableSQLTypes>
+    <WebReference_EnableLegacyEventingModel>true</WebReference_EnableLegacyEventingModel>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <PublishUrl>http://localhost/MedscreenLib/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccAuxPath>Svn</SccAuxPath>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>MedscreenLib.xml</DocumentationFile>
+    <BaseAddress>318767104</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>MedscreenLib.xml</DocumentationFile>
+    <BaseAddress>318767104</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Development|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>MedscreenLib.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == '2004|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>MedscreenLib.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release2004|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>MedscreenLib.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>R2004=TRUE</DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveDirectoryWrapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ActiveDirectory\ActiveDirectoryWrapper\bin\Release\ActiveDirectoryWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="BenjaminSchroeter.GeoNames, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dlls\BenjaminSchroeter.GeoNames.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine">
+      <Name>CrystalDecisions.CrystalReports.Engine</Name>
+      <HintPath>..\..\..\..\..\Program Files\Business Objects\Common\3.5\managed\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared">
+      <Name>CrystalDecisions.Shared</Name>
+      <HintPath>..\..\..\..\..\Program Files\Business Objects\Common\3.5\managed\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="FreeSMTP.Net">
+      <Name>FreeSMTP.Net</Name>
+      <HintPath>bin\FreeSMTP.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Magick.NET-x86, Version=6.0.0.0, Culture=neutral, PublicKeyToken=2004825badfa91ec, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dlls\Magick.NET-x86.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.Office.Interop.Word, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <Name>System.DirectoryServices</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Address.vb" />
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblySettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BackgroundReport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BlobManagement.vb" />
+    <Compile Include="CConnection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Formats.vb" />
+    <Compile Include="ImageManagement.vb" />
+    <Compile Include="Medscreen.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsCalendar.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsGlossary.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsInterface.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsLogging.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPersonnel.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsStructure.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTemplates.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsUser.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Comments.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="contacts.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalSupport.vb" />
+    <Compile Include="CRYSTAL_REPORTS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRYSTAL_REPORTS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustOpt_Groups.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustOpt_Groups.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DynamicMenu.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EventLogger.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExcelSupport.vb" />
+    <Compile Include="FileLogger.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FindInList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCombo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditText.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHTMLView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmParameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectOutput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeoCode.vb" />
+    <Compile Include="Graphs.vb" />
+    <Compile Include="ILog.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mdlSMLibrary.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MedException.vb" />
+    <Compile Include="MedscreenlibConfig.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Messaging.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc.vb" />
+    <Compile Include="ModRegistry.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkDrive.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumberSupport.vb" />
+    <Compile Include="Options.vb" />
+    <Compile Include="PhraseSupport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Printing.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RandomNumbers.vb" />
+    <Compile Include="RSS.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SageConnection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Support.vb" />
+    <Compile Include="Tokeniser.vb" />
+    <Compile Include="Web References\ts011\Reference.vb">
+      <DependentUpon>Reference.map</DependentUpon>
+      <SubType>code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Web References\ts01\Reference.vb">
+      <DependentUpon>Reference.map</DependentUpon>
+      <SubType>code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="WebCache.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WordSupport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="CRYSTAL_REPORTS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CRYSTAL_REPORTS.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="CustOpt_Groups.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustOpt_Groups.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="RevisionHistory.txt" />
+    <None Include="app.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="CRYSTAL_REPORTS.xsc">
+      <DependentUpon>CRYSTAL_REPORTS.xsd</DependentUpon>
+    </None>
+    <None Include="CRYSTAL_REPORTS.xsx">
+      <DependentUpon>CRYSTAL_REPORTS.xsd</DependentUpon>
+    </None>
+    <None Include="CustOpt_Groups.xsc">
+      <DependentUpon>CustOpt_Groups.xsd</DependentUpon>
+    </None>
+    <None Include="CustOpt_Groups.xsx">
+      <DependentUpon>CustOpt_Groups.xsd</DependentUpon>
+    </None>
+    <None Include="MedscreenLib.DLL.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\ts011\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\ts011\service1.disco" />
+    <None Include="Web References\ts011\service1.wsdl" />
+    <None Include="Web References\ts01\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\ts01\Service1.disco" />
+    <None Include="Web References\ts01\Service1.wsdl" />
+    <EmbeddedResource Include="FindInList.resx">
+      <DependentUpon>FindInList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCombo.resx">
+      <DependentUpon>frmCombo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditText.resx">
+      <DependentUpon>frmEditText.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHTMLView.resx">
+      <DependentUpon>frmHTMLView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptions.resx">
+      <DependentUpon>frmOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmParameter.resx">
+      <DependentUpon>frmParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPassword.resx">
+      <DependentUpon>frmPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectOutput.resx">
+      <DependentUpon>FrmSelectOutput.vb</DependentUpon>
+    </EmbeddedResource>
+    <WebReferenceUrl Include="http://ts01/CardiffSoap/service1.asmx">
+      <RelPath>Web References\ts011\</RelPath>
+      <UrlBehavior>Static</UrlBehavior>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://ts02dock/WebService1/Service1.asmx">
+      <RelPath>Web References\ts01\</RelPath>
+      <UrlBehavior>Static</UrlBehavior>
+      <UpdateFromURL>http://ts02dock/WebService1/Service1.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="trunk\" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties XMLCommentsActionBuild="-1" XMLCommentsOutputFile="MedscreenLib.xml" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
