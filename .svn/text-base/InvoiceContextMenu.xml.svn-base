@@ -1,5 +1,0 @@
-<root>
-	<TopLevelMenu id="InvoiceContext">
-		<MenuItem id="Send Invoice to self" OnClick="mnuPrintInvoice_"></MenuItem>
-	</TopLevelMenu>
-</root>
