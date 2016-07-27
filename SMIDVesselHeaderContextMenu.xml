@@ -1,6 +1,0 @@
-<root>
-  <TopLevelMenu id="SMIDContext" OnClick="SMIDHeadContext_" type="MENU">
-    <MenuItem id="&amp;Customer Vessel/Site Report" OnClick="mnuCustomerVesselReport2_"  type="MENU" ></MenuItem>
-  </TopLevelMenu>
-</root>
-
